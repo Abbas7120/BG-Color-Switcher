@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+p{
+    color: grey;
+    font-family: cursive;
+    margin: 10px 0px;
+}
+#switches{
+    list-style-type:none;
+    overflow: hidden;
+}
+#switches li{
+float: left;
+    border: 2px solid black;
+    width: 30px;
+    height:30px;
+    margin: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
